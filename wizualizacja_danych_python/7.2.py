@@ -1,0 +1,11 @@
+import numpy
+a = numpy.array([[1, 2, 3], [4, 5, 6],[7, 8, 9]])
+b = numpy.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12],[13, 14, 15, 16]])
+print(numpy.amin(a, axis=0))
+print(numpy.amin(a, axis=1))
+print(numpy.amin(b, axis=0))
+print(numpy.amin(b, axis=1))
+print(numpy.amax(a, axis=0))
+print(numpy.amax(a, axis=1))
+print(numpy.amax(b, axis=0))
+print(numpy.amax(b, axis=1))
